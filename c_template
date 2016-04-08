@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Echo bare C template with CS50 and standard library
+
+cat << _EOF_
+
+#include <cs50.h>
+#include <stdio.h>
+
+int main(int argc, string argv[])
+{
+    printf(“Hello World”);
+    return 0;
+}
+
+_EOF_
